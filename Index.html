@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assados da Fatinha</title>
+   <link rel="stylesheet" href="/CSS/Estilo_Index.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+</head>
+<body>
+    <header class="max-width bg" id="home">
+        <div class="container">
+            <div class="menu">
+                <div class="logo"></div>
+                <div class="desktop-menu">
+                    <ul>
+                        <li><a href="Index.html">Menu</a></li>
+                        <li><a href="/Páginas/Cardapio.html">Cardápio</a></li>
+                        <li><a href="/Páginas/Promoções.html">Promoções</a></li>
+                        <li><a href="/Páginas/Receitas.html">Receitas</a></li>
+                        <li><a href="/Páginas/Sobre Nós.html">Sobre Nós</a></li>
+                        <li><a href="/Páginas/Pedido.html">Pedidos</a></li>
+                        <li></li>
+                    </ul>
+                 </div>
+            </div>  
+        </div> 
+                
+        <div class="call">
+            <div class="left">
+                <img src="/Imagens/Vitrine1.jpg" alt="lanchonete">
+            </div>
+            <div class="right">
+                <h1 class="color-1 text-gd"> Assados da Fatinha</h1>
+                <h2 class="color-3 text-md">O Melhor Salgado da Região</h2>
+                <p class ="text-pq">Venha curtir os melhores momentos da vida<br> 
+                                    aqui no Assados da Fatinha</p>
+                <button><a href="/Páginas/Cardapio.html">Ver Cardápio</a></button>
+            </div>
+        </div>        
+    <section>
+        <div class="social-media">
+            <a href="#"><img src="/Imagens/LgInsta.png" alt="logoinstagram"></a>
+            <a href="#"><img src="/Imagens/LogoFace.png" alt="logofacebook"></a>
+            <a href="#"><img src="/Imagens/Logowhats.png" alt="logowhatsapp"></a>
+        </div>
+    </section>
+    <button id="back-to-top">^</button>
+</header>
+
+<section class="max-width bg" id="Promoções">
+    <div class="container">
+        <div class="call">
+            <div class="left">
+                <span class="text-title color-1">Promoções</span>
+                <h2 class="text-md color-3">Conheça nossos combos</h2>
+                <p>Leve nossas gostosuras para sua família</p>
+                <button><a href="/Páginas/Promoções.html">Combos</a></button>
+            </div>
+            <div class="right">
+            <img src="/Imagens/vitrine.jpg" alt="vitrinedesalgados">  
+            </div>
+        </div>
+    </div>
+</section>
+<section class="max-width bg" id="Receitas">
+    <div class="container">
+        <div class="call">
+            <div class="left">
+                <img src="/Imagens/empadasuperrecheada.png" alt="empada">
+            </div>
+            <div class="right">
+                <span class="text-title color-1">Receitas</span>
+                        <h2 class="text-md color-3">Aprenda nossas receitas</h2>
+                        <p>Faça em casa nossas gostosuras</p>
+                        <button><a href="/Páginas/Receitas.html">Faça</a></button>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="max-width bg" id="Sobre-Nós">
+    <div class="container">
+        <div class="call">
+            <div class="left">
+                <span class="text-title color-1">Sobre Nós</span>
+                    <h2 class="text-md color-3">Uma História de Superação e Amor</h2>
+                    <p>Conheça a Fatinha</p>
+                    <button><a href="/Páginas/Sobre Nós.html">Saiba Mais</a></button>
+            </div>
+            <div class="right">
+                    <img src="/Imagens/maonamassa.jpg" alt="mãonamassa">  
+            </div>
+        </div>
+    </div>
+</section>
+<section class="max-width bg" id="Pedidos">
+        <div class="container">
+            <div class="content">
+                <div class="titulo">
+                    <span class="text-title color-1"> Pedidos</span>
+                        <h2 class="text-md color-2">Encomende nossos produtos</h2>
+                </div>
+                <div class="down">
+                    <div class="box">
+                        <i class="fa fa-cutlery text-gd color-1"></i>
+                            <h2>Coma Aqui</h2>
+                            <p>Você será tratado feito um rei!</p>
+                    </div>
+                    <div class="box">
+                        <i class="fa-solid fa-pizza-slice text-gd color-1"></i>
+                            <h2>Leve para Casa</h2>
+                            <p>Para aquela hora que a fome pintar</p>
+                    </div>
+                    <div class="box">
+                        <i class="fa fa-motorcycle text-gd color-1"></i>
+                            <h2>Entregamos</h2>
+                            <p>No conforto do seu lar.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+<script>
+var btn = document.querySelector("#back-to-top");
+btn.addEventListener("click", function(){
+window.scrollTo(0,0);
+})
+</script>
+<section class="caixa">
+    <div class="contato">
+        <h3>Formulário de Contato</h3>
+        <form class="form">
+            <input class="field" name="name" placeholder="Nome">
+            <input class="field" name="email" placeholder="Email">
+            <textarea class="field" name="mesage" placeholder="Deixe aqui sua mensagem"></textarea>
+            <input class="field" type="submit" value="Enviar">
+            </form>
+    </div>
+</section>
+<footer>
+<section>
+    <div class="rodapé"><img src="/Imagens/Logo.png" alt="logo">
+        <h1 class="color-1 text-gd"> Assados da Fatinha</h1>
+        <h2 class="text-pq color-3">Para pedidos urgentes chamar no Whatsapp: (31) XXXX-XXXX</h2>
+        <section>
+            <div class="social-media">
+                <a href="#"><img src="/Imagens/LgInsta.png" alt="logoinstagram"></a>
+                <a href="#"><img src="/Imagens/LogoFace.png" alt="logofacebook"></a>
+                <a href="#"><img src="/Imagens/Logowhats.png" alt="logowhatsapp"></a>
+            </div>
+            <p class="color-1 text-pq">Carinhosamente feito por DanihPaoli Setembro/2022</p>
+        </section>
+        </div>
+    </section>
+</footer>
+</body>
+</html>
